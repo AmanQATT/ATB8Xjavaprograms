@@ -1,6 +1,6 @@
-package sept.ex_11092024;
+package sept.ex_11092024_data_types;
 
-public class Lab016_Datatypes {
+public class Lab016 {
     public static void main(String[] args) {
         //store the distance between earth and moon
         long distance_between_earth_moon = 384400000L; //in Meter
