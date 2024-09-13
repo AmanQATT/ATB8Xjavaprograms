@@ -1,4 +1,4 @@
-package sept.ex_13092024_user_defined_and_constants;
+package sept.ex_13092024_user_defined_and_constants_Literals;
 
 public class Lab018 {
     public static void main(String[] args) {
