@@ -1,7 +1,13 @@
-package sept.ex_13092024_user_defined_and_constants_Literals;
+package Tasks.ex_13092024;
 
-public class Lab028_simple_calculator {
+public class Lab02 {
     public static void main(String[] args) {
+
+       // Prepare a small calculator, which supports +, - , , / and %(?) - Modulus operator
+        //double a = 34;
+       // double b = 10;
+        //Print - a+b, a-b, ab, a/b, a%b all the outputs.
+
         // variables
         double a =34;
         double b = 10;
@@ -23,9 +29,6 @@ public class Lab028_simple_calculator {
         System.out.printf("%f / %f = %f", a, b, a/b);
         System.out.println();
         System.out.printf("%f modulus %f = %f", a, b, a%b);
-
-
-
 
     }
 }
