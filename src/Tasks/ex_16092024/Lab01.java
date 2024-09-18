@@ -5,7 +5,7 @@ public class Lab01 {
       /*
         1. Difference between = and == operator
 
-        A. '=' is a assignment operator. = operator in java is used to assign value to an variable.
+        A. '=' is a assignment operator. = operator in java is used to assign value to a variable.
 
                 Example: int a=10;
 
@@ -21,7 +21,7 @@ public class Lab01 {
 
         Total=9bytes
 
-        3. Another byte b = 10; byte c = 10;  What is the anwser if the perform b+c,
+        3. Another byte b = 10; byte c = 10;  What is the answer if they perform b+c,
 
                 What is the data type it will give in result.
 
