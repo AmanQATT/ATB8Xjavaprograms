@@ -14,8 +14,8 @@ public class Lab01 {
 
         //Narrowing
         int d = 300;
-        //byte b1=val; // invalid implicit casting-JVM
-        byte d2 = (byte)d; // invalid explicit casting-loss of data
+        //byte b1=d; // invalid implicit casting-JVM never allow
+        byte d2 = (byte)d; // valid explicit casting-loss of data
         System.out.println(d2);
 
 

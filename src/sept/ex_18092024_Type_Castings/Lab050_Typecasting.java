@@ -15,8 +15,8 @@ public class Lab050_Typecasting {
 
         //Narrowing
         int val = 300;
-        //byte b1=val; // invalid implicit casting-JVM
-        byte b2 = (byte)val; // invalid explicit casting-loss of data
+        //byte b1=val; // invalid implicit casting-JVM never allow
+        byte b2 = (byte)val; // valid explicit casting-loss of data
         System.out.println(b2);
     }
 }
