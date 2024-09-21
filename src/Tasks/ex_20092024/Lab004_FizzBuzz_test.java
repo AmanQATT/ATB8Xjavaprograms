@@ -9,17 +9,14 @@ public class Lab004_FizzBuzz_test {
         //        print "Fizz" instead of the number, and for multiples of 5, print "Buzz."
       //  For numbers that are multiples of both 3 and 5, print "FizzBuzz."
 
-        for(int i=1; i<=100; i++){
-            if((i%3==0) && (i%5==0)){
+        for (int i = 1; i <= 100; i++) {
+            if (i % 3 == 0 && i % 5 == 0) {
                 System.out.println("FizzBuzz");
-            }
-            else if(i%3==0){
+            } else if (i % 3 == 0) {
                 System.out.println("Fizz");
-            }
-            else if(i%5==0){
+            } else if (i % 5 == 0) {
                 System.out.println("Buzz");
-            }
-            else{
+            } else {
                 System.out.println(i);
             }
         }
