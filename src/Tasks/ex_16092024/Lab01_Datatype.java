@@ -1,6 +1,6 @@
 package Tasks.ex_16092024;
 
-public class Lab01 {
+public class Lab01_Datatype {
     public static void main(String[] args) {
       /*
         1. Difference between = and == operator

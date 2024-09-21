@@ -1,6 +1,6 @@
 package Tasks.ex_18092024;
 
-public class Lab002 {
+public class Lab002_increment_decrement {
     public static void main(String[] args) {
         //Q(2)
         int a = 10;

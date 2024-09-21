@@ -1,6 +1,6 @@
 package Tasks.ex_18092024;
 
-public class Lab01 {
+public class Lab01_Typecasting {
     public static void main(String[] args) {
         //Q(1)Give some another example of Widening.
         //with Implicit and Explicit, Narrowing with implicit and explicit.
