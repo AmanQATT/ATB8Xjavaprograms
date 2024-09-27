@@ -1,5 +1,7 @@
 package Tasks.ex_20092024;
 
+import java.util.Scanner;
+
 public class Lab003_Triangle_Classifier {
     public static void main(String[] args) {
 
@@ -19,17 +21,41 @@ public class Lab003_Triangle_Classifier {
 
 // side1, side2, side3 ->
 
-        int sidea=5;
-        int sideb=5;
-        int sidec=3;
-        if((sidea==sideb) && (sideb==sidec) && (sidec==sidea)) {
-            System.out.println("Equilatral Triangle");
-        }
-        else if((sidea==sideb) || (sideb==sidec) || (sidec==sidea)){
-            System.out.println("Isosceles Triangle(two sides are equal) ");
-        }
-        else if((sidea!=sideb) && (sideb!=sidec) && (sidec!=sidea)){
-            System.out.println("scalene (sides not equal) ");
-        }
+
+        //Step 1-
+        // slides - double
+        //o/p - String
+
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the length of side1: ");
+        double side1 = sc.nextDouble();
+
+        System.out.println("Enter the length of side2: ");
+        double side2 = sc.nextDouble();
+
+        System.out.println("Enter the length of side3: ");
+        double side3 = sc.nextDouble();
+
+
+       // int side1=5;
+        //int side2=5;   // without scanner class then this use.
+       // int side3=3;
+
+     if(side1>=1 && side2 >=1 && side3>=1) {
+
+         if ((side1 == side2) && (side2 == side3) && (side3 == side1)) {
+             System.out.println("Equilateral Triangle");
+         } else if ((side1 == side2) || (side2 == side3) || (side3 == side1)) {
+             System.out.println("Isosceles Triangle(two sides are equal) ");
+         } else {
+             System.out.println("scalene (sides not equal) ");
+         }
+     }else{
+         System.out.println("Are you mad?, Negative sides" );
+     }
+     // Always talk to your interviewer and give them extra.
+        // Edge you need to give them and if you can handle them.
+   // ask them then handle
+        // Test validation -> special character,negative value.
     }
 }
