@@ -1,4 +1,4 @@
-package Tasks.ex_25092024_loops;
+package Tasks.ex_25092024_30092024_loops;
 
 import java.util.Scanner;
 

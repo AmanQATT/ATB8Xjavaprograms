@@ -1,4 +1,4 @@
-package Tasks.ex_25092024_loops;
+package Tasks.ex_25092024_30092024_loops;
 
 public class Lab002_Factorial {
     public static void main(String[] args) {

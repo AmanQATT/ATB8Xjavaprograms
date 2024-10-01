@@ -1,4 +1,4 @@
-package Tasks.ex_25092024_loops;
+package Tasks.ex_25092024_30092024_loops;
 
 public class Lab004_vowels_constant {
     public static void main(String[] args) {

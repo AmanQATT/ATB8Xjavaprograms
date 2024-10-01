@@ -1,4 +1,4 @@
-package Tasks.ex_25092024_loops;
+package Tasks.ex_25092024_30092024_loops;
 
 public class Lab003_Prime_number {
     public static void main(String[] args) {

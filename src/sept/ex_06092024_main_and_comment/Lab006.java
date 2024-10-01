@@ -4,7 +4,7 @@ package sept.ex_06092024_main_and_comment;
 *program - ATB8X
 * Program to explain comments
  */
-//program java with the class file,name of the class is Lab006
+//program java with the class file,name of the class is Lab006_Print_5_even_numbers
 public class Lab006 {
     //This is main function, JVM starts from here
     public static void main(String[] args) {

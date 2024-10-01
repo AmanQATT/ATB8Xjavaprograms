@@ -1,4 +1,4 @@
-package Tasks.ex_25092024_loops;
+package Tasks.ex_25092024_30092024_loops;
 
 public class Lab001_Print_table {
     public static void main(String[] args) {
