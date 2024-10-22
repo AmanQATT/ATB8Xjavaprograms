@@ -1,15 +1,14 @@
-package Tasks.ex_14102024;
+package Oct.ex_16102024;
 
-
-
-public class PrintMyBook extends Book {
+public class PrintMyBook extends Book{
 
 
     // add parametrised constructor
     public PrintMyBook(String name, String author, double price) {
         super(name, author, price);
     }
- // implement methods
+
+    // implement methods
     @Override
     void getDetails() {
         System.out.println(name);
