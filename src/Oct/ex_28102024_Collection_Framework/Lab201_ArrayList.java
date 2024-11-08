@@ -15,7 +15,7 @@ public class Lab201_ArrayList {
         System.out.println(marks);
         //Sorting
        // Collections.sort(marks);
-        Collections.sort(marks,Collections.reverseOrder());
+        Collections.sort(marks,Collections.reverseOrder()); // reverse
         System.out.println(marks);
     }
 }
